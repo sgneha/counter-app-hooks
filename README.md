@@ -6,6 +6,14 @@ We had used class components for following reasons:
 
    However by using hooks we can do all these without class components.
 
+Hooks are functions which let us use states and other react features without writing class components.
+
+In function components we cannot use states but with the use of hooks we can use states in function component as well.
+Here is just demonstration of 2 hooks
+
+1. useState() we can use state
+2. useEffect() we can handle sideeffects means now no need to use all lifecycle methods like componentDidMount(),componentWillMount() if we use useeffect hook.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
