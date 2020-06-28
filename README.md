@@ -1,3 +1,11 @@
+We had used class components for following reasons:
+
+1. to keep data in state
+2. to use lifecycle methods
+3. to pass props from classes to function components
+
+   However by using hooks we can do all these without class components.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
