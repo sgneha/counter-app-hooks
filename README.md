@@ -33,6 +33,20 @@ We have written counter using class component.Lets rewrite the counter in functi
    1. componenetDidMount(): when the component mounts it will set the document title to equal to how many counts we have, which is 0 now.
    2. componenetDidUpdate(): when the state updates it changes the value of title as well.
 
+Rewrite above using UseEffect hook:
+Bring back the function component.
+useEffect is a function which takes another function as argument
+Add this
+
+```
+useEffect(() => {
+    document.title = `Clicked ${count} times`;
+  });
+```
+
+useEffect runs everytime there is change in state.
+Its works perfectly.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
