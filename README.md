@@ -14,6 +14,13 @@ Here is just demonstration of 2 hooks
 1. useState() we can use state
 2. useEffect() we can handle sideeffects means now no need to use all lifecycle methods like componentDidMount(),componentWillMount() if we use useeffect hook.
 
+We have written counter using class component.Lets rewrite the counter using hooks
+
+1. useState
+   Import useState `import React, { Component, useState } from "react";`
+   useState(0) returns 2 things first current state value and function that lets us update the state.
+   so 0 is default value of count state.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
