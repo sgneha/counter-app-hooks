@@ -31,6 +31,7 @@ We have written counter using class component.Lets rewrite the counter in functi
    Bring back class component:
    Add two life cycle methods.
    1. componenetDidMount(): when the component mounts it will set the document title to equal to how many counts we have, which is 0 now.
+   2. componenetDidUpdate(): when the state updates it changes the value of title as well.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
