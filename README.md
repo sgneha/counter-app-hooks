@@ -28,6 +28,9 @@ We have written counter using class component.Lets rewrite the counter in functi
    As soon as state changes or updates useEffect will run.
    Let's write a simple app which lets us update Document title.
    Will make use of same class component as above with lifecycle methods then rewrite the same using useEffect hook.
+   Bring back class component:
+   Add two life cycle methods.
+   1. componenetDidMount(): when the component mounts it will set the document title to equal to how many counts we have, which is 0 now.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
