@@ -24,6 +24,11 @@ We have written counter using class component.Lets rewrite the counter in functi
    Now we have same couneter in function component.
    Let's next make use of useEffect to avoid using lifecycle methods.
 
+2. useEffect
+   As soon as state changes or updates useEffect will run.
+   Let's write a simple app which lets us update Document title.
+   Will make use of same class component as above with lifecycle methods then rewrite the same using useEffect hook.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
